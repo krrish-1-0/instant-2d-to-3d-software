@@ -1,0 +1,42 @@
+# See https://github.com/laravel/lumen-framework/blob/master/.gitignore
+# .env.example
+.env*.local
+
+# next.js
+/.next/
+/out/
+
+# node_modules
+node_modules/
+
+# prest config files
+.docker/
+
+# misc
+*.orig
+*.bak
+
+# typescript
+*.tsbuildinfo
+.td
+
+# local dep, you may need to change this
+.deps/
+
+# npm/yarn/pnpm lock files
+yarn.lock
+package-lock.lock
+pnpm-lock.yaml
+
+# Vercel
+.vercel
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# next-config-plugin
+next-env.d.ts
